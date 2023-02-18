@@ -1,0 +1,72 @@
+body {
+    /**This is the standard styling for body, adding a font style after importing styles from google fonts */
+    background-color: #22223b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    /* font family copied from google fonts*/
+}
+
+.container {
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+}
+
+.game {
+    /* display: none; */
+}
+
+.content {
+    padding: 40px;
+}
+
+.question {
+    font-size: 40px;
+}
+
+.answer {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.submit {
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0px;
+}
+
+.result {
+
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+.result h1 {
+    font-size: 50px;
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
+
+.play {
+    color: white;
+    background-color: rebeccapurple;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
